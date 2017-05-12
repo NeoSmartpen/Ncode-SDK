@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\pngpp">
+      <UniqueIdentifier>{a4313ac0-9b71-48b5-9fd1-41a0ba63d68f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pngpp\example.c">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClCompile>
+    <ClCompile Include="pngpp\png.c">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClCompile>
+    <ClCompile Include="pngpp\pngerror.c">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClCompile>
+    <ClCompile Include="pngpp\pngget.c">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClCompile>
+    <ClCompile Include="pngpp\pngmem.c">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClCompile>
+    <ClCompile Include="pngpp\pngpread.c">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClCompile>
+    <ClCompile Include="pngpp\pngread.c">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClCompile>
+    <ClCompile Include="pngpp\pngrio.c">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClCompile>
+    <ClCompile Include="pngpp\pngrtran.c">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClCompile>
+    <ClCompile Include="pngpp\pngrutil.c">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClCompile>
+    <ClCompile Include="pngpp\pngset.c">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClCompile>
+    <ClCompile Include="pngpp\pngtrans.c">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClCompile>
+    <ClCompile Include="pngpp\pngwio.c">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClCompile>
+    <ClCompile Include="pngpp\pngwrite.c">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClCompile>
+    <ClCompile Include="pngpp\pngwtran.c">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClCompile>
+    <ClCompile Include="pngpp\pngwutil.c">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="simplePng.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\color.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\config.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\consumer.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\convert_color_space.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\end_info.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\error.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\ga_pixel.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\generator.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\gray_pixel.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\image.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\image_info.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\index_pixel.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\info.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\info_base.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\io_base.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\packed_pixel.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\palette.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\pixel_buffer.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\pixel_traits.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\png.h">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\png.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\pngconf.h">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\pngdebug.h">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\pnginfo.h">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\pnglibconf.h">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\pngpriv.h">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\pngstruct.h">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\reader.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\require_color_space.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\rgb_pixel.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\rgba_pixel.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\solid_pixel_buffer.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\streaming_base.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\tRNS.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\types.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\writer.hpp">
+      <Filter>소스 파일\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="NCodeSDK.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
