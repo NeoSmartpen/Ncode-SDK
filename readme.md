@@ -1,4 +1,4 @@
-**NeoLAB NCode SDK**
+**NeoLAB Ncode SDK**
 ====================
 
 ---------------
@@ -9,7 +9,7 @@ you can see more information at http://neosmartpen.com
 
 ---------------
 ###Introduction
-This is a C# sample project for printing NCode image. And also included SDK library.
+This is a C# and C++ sample project for printing Ncode image. And also included SDK library.
 
 
 -------------
