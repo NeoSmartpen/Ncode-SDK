@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sampleApp(NCode)", "sampleApp(NCode)\sampleApp(NCode).csproj", "{DCD4406D-1B0F-4BC1-AF2C-EC9DB76B5278}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sampleApp(Ncode)", "sampleApp(NCode)\sampleApp(Ncode).csproj", "{DCD4406D-1B0F-4BC1-AF2C-EC9DB76B5278}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -7,8 +7,8 @@
     <ProjectGuid>{DCD4406D-1B0F-4BC1-AF2C-EC9DB76B5278}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>sampleApp_NCode_</RootNamespace>
-    <AssemblyName>sampleApp%28NCode%29</AssemblyName>
+    <RootNamespace>sampleApp_Ncode_</RootNamespace>
+    <AssemblyName>sampleApp%28Ncode%29</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -32,8 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NeoLABNCodeSDK">
-      <HintPath>bin\Release\NeoLABNCodeSDK.dll</HintPath>
+    <Reference Include="NeoLABNcodeSDK, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll\NeoLABNcodeSDK.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

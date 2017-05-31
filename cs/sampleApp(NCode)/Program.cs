@@ -4,21 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
-using NeoLABNCodeSDK;
+using NeoLABNcodeSDK;
 using System.IO;
 
-namespace sampleApp_NCode_
+namespace sampleApp_Ncode_
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Generate_NCode_With_Predeterminded_PageInfo();
+            Generate_Ncode_With_Predeterminded_PageInfo();
         }
 
-        static void Generate_NCode_With_Predeterminded_PageInfo()
+        static void Generate_Ncode_With_Predeterminded_PageInfo()
         {
-            CNCodeSDK sdk = new CNCodeSDK();
+            CNcodeSDK sdk = new CNcodeSDK();
 
 
             Console.WriteLine("1) Initializing with app key");
@@ -31,7 +31,7 @@ namespace sampleApp_NCode_
 
             Console.WriteLine("2) Getting tickets list");
             Console.WriteLine();
-            CNCodeSDK.TicketInfo[] tickets;
+            CNcodeSDK.TicketInfo[] tickets;
             int getTicketRet = sdk.GetTickets(out tickets);
             if (getTicketRet >= 100)
             {
@@ -66,7 +66,7 @@ namespace sampleApp_NCode_
             int ticketIndex = 0;
             int bookOffset = 2;
             int pageOffset = 15;
-            CNCodeSDK.TicketInfo pageInfo = sdk.SetStartPageByOffset(tickets[ticketIndex], bookOffset, pageOffset);
+            CNcodeSDK.TicketInfo pageInfo = sdk.SetStartPageByOffset(tickets[ticketIndex], bookOffset, pageOffset);
 
             if (pageInfo == null)
             {
@@ -92,9 +92,9 @@ namespace sampleApp_NCode_
 
 
 
-            Console.WriteLine("4) Generating NCode data");
+            Console.WriteLine("4) Generating Ncode data");
             Console.WriteLine();
-            CNCodeSDK.NCodeData codeData = sdk.GenerateNCode(
+            CNcodeSDK.NcodeData codeData = sdk.GenerateNcode(
                 pageInfo,               // page information from tickets
                 imgSize.Width,          // width (pixel)
                 imgSize.Height,         // height (pixel)
@@ -103,14 +103,14 @@ namespace sampleApp_NCode_
 
             if (codeData.errorCode != 0)
             {
-                Console.WriteLine("   Generate NCode error : " + codeData.errorCode.ToString());
+                Console.WriteLine("   Generate Ncode error : " + codeData.errorCode.ToString());
                 Console.WriteLine("   Error message : " + sdk.GetLastError());
                 Console.ReadLine();
                 return;
             }
             else
             {
-                Console.WriteLine("   Generating NCode complete");
+                Console.WriteLine("   Generating Ncode complete");
                 Console.WriteLine("   Section : " + codeData.section.ToString());
                 Console.WriteLine("   Owner : " + codeData.owner.ToString());
                 Console.WriteLine("   Book : " + codeData.book.ToString());
@@ -121,13 +121,13 @@ namespace sampleApp_NCode_
 
 
 
-            Console.WriteLine("5) Saving NCode image file");
+            Console.WriteLine("5) Saving Ncode image file");
             Console.WriteLine();
             string outputFilename =
                 pageInfo.section.ToString() + "_" +
                 pageInfo.owner.ToString() + "_" +
                 pageInfo.bookStart.ToString() + "_" +
-                pageInfo.pageStart.ToString() + ".bmp";
+                pageInfo.pageStart.ToString() + ".png";
 
             codeData.image.Save(outputFilename);
 
