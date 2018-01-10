@@ -25,8 +25,8 @@ Ncode™ SERVICE DEVELOPMENT GETTING STARTED GUIDE
 -------------
 ### LICENSE
 
-NeoSmartpen SDK is Copyright (c) 2017 NeoLAB Convergence, Inc.
-We provide two types of license for Pen SDK.
+Ncode SDK is Copyright (c) 2017 NeoLAB Convergence, Inc.
+We provide two types of license for Ncode SDK.
 GPL license v3
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. 
 
