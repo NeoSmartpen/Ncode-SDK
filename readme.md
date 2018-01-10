@@ -40,9 +40,9 @@ If not, see <http://www.gnu.org/licenses/>.
 Commercial license
 That does not require the source code open to be released, and technical support is available.
 Please contact following to get more information:
-   - Korea: _dombiz@neolab.net
    - Global: _globiz@neolab.net
-
+   - Korea: _dombiz@neolab.net
+   
 ------------
 ### Technical support
 
