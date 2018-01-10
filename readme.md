@@ -13,6 +13,7 @@ This is a C# and C++ sample project for printing Ncode image. And also included 
 
 -------------
 ###Getting started
+
 See the documentation in the doc folder.
 When you run the project, you must use the SDK library in the dll folder.
 
