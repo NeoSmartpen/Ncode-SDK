@@ -3,12 +3,14 @@
 
 ---------------
 
-###What is Neo smartpen
+### What is Neo smartpen
+
 Neo smartpen is a pen designed to capture your handwritten notes into our digital app with our Ncode notebooks.
 you can see more information at http://neosmartpen.com
 
 ---------------
-###Introduction
+### Introduction
+
 This is a C# and C++ sample project for printing Ncode image. And also included SDK library.
 
 -------------
@@ -40,5 +42,6 @@ Please contact following to get more information:
    - Global: _globiz@neolab.net
 
 ------------
-###Technical support
+### Technical support
+
 please contact hrhwang@neolab.net or leave a comment.
