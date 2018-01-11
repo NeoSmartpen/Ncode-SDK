@@ -19,6 +19,21 @@ This is a C# and C++ sample project for printing Ncode image. And also included 
 See the documentation in the doc folder.
 When you run the project, you must use the SDK library in the dll folder.
 
+Ncode™ SERVICE DEVELOPMENT GETTING STARTED GUIDE
+ <<https://github.com/NeoSmartpen/Documentations/blob/master/Ncode™ Service Development Getting Started Guide v1.01.pdf>>
+ 
+-------------
+### LICENSE
+
+Ncode SDK Copyright (c) 2017 NeoLAB Convergence, Inc.
+
+Ncode SDK is required purchase commercial license.
+Ncode SDK includes a limited test key, you can develop the prototype software without the commercial license.
+
+Please contact following to get more information:
+   - Global: _globiz@neolab.net
+   - Korea: _dombiz@neolab.net
+
 ------------
 ### Technical support
 
