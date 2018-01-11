@@ -20,7 +20,7 @@ See the documentation in the doc folder.
 When you run the project, you must use the SDK library in the dll folder.
 
 Ncode™ SERVICE DEVELOPMENT GETTING STARTED GUIDE
- <<https://github.com/NeoSmartpen/Documentations/blob/master/Ncode™ Service Development Getting Started Guide v1.01.pdf>>
+<< [https://github.com/NeoSmartpen/Documentations/blob/master/Ncode™ Service Development Getting Started Guide v1.01.pdf](https://github.com/NeoSmartpen/Documentations/blob/master/Ncode%E2%84%A2%20Service%20Development%20Getting%20Started%20Guide%20v1.01.pdf) >>
  
 -------------
 ### LICENSE
