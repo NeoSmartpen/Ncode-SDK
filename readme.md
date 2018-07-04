@@ -35,6 +35,8 @@ Please contact following to get more information:
    - Global: _globalbiz@neolab.net
    - Korea: _koreabiz@neolab.net
 
+-------------
+And we are using the following open sources.
 #### NewtonJSON (https://github.com/JamesNK/Newtonsoft.Json/blob/master/LICENSE.md)
 
 The MIT License (MIT)
