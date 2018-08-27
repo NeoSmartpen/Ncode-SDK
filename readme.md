@@ -1,17 +1,17 @@
-**NeoLAB Ncode SDK**
+**NeoLAB Ncode™ SDK**
 ====================
 
 ---------------
 
 ### What is Neo smartpen
 
-Neo smartpen is a pen designed to capture your handwritten notes into our digital app with our Ncode notebooks.
+Neo smartpen is a pen designed to capture your handwritten notes into our digital app with our Ncode™ notebooks.
 you can see more information at http://neosmartpen.com
 
 ---------------
 ### Introduction
 
-This is a C# and C++ sample project for printing Ncode image. And also included SDK library.
+This is a C# and C++ sample project for printing Ncode™ image. And also included SDK library.
 
 -------------
 ### Getting started
@@ -26,10 +26,10 @@ Ncode™ SERVICE DEVELOPMENT GETTING STARTED GUIDE
 -------------
 ### LICENSE
 
-Ncode SDK Copyright (c) 2017 NeoLAB Convergence, Inc.
+Ncode™ SDK Copyright (c) 2017 NeoLAB Convergence, Inc.
 
-Ncode SDK is required purchase commercial license.
-Ncode SDK includes a limited test key, you can develop the prototype software without the commercial license.
+Ncode™ SDK is required purchase commercial license.
+Ncode™ SDK includes a limited test key, you can develop the prototype software without the commercial license.
 
 Please contact following to get more information:
    - Global: _globalbiz@neolab.net
