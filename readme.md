@@ -32,8 +32,8 @@ Ncode™ SDK is required purchase commercial license.
 Ncode™ SDK includes a limited test key, you can develop the prototype software without the commercial license.
 
 Please contact following to get more information:
-   - Global: _globalbiz@neolab.net
-   - Korea: _koreabiz@neolab.net
+   - Global: _global1@neolab.net
+   - Korea: _biz1@neolab.net
 
 -------------
 And we are using the following open sources.
