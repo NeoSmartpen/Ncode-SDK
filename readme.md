@@ -3,10 +3,9 @@
 
 ---------------
 
-### What is Neo smartpen
+### About Neo smartpen
 
-Neo smartpen is a pen designed to capture your handwritten notes into our digital app with our Ncode™ notebooks.
-you can see more information at http://neosmartpen.com
+The Neo smartpen is designed to seamlessly integrate the real and digital worlds by transforming what you write on paper - everything from sketches and designs to business meeting notes - to your iOS, Android and Windows devices. It works in tandem with N notebooks, powered by NeoLAB Convergence’s patented Ncode™ technology and the accompanying application, Neo Notes. Find out more at www.neosmartpen.com
 
 ---------------
 ### Introduction
