@@ -259,7 +259,7 @@ namespace sampleApp_Ncode_cs_adobe_
             Console.WriteLine("////////////////////////////////////");
 
             IPDFDocument doc = lib.openDocument(inputPdfFilename);
-            IPDFDocument newDoc = lib.copyDocumentOnlyPageStructure(doc);
+            IPDFDocument newDoc = lib.copyDocumentOnlyPageStructure(doc, false);
 
             if (doc.getPageCount() != ncodeImageFilename.Length)
             {
